@@ -1,0 +1,570 @@
+:root {
+    --Color-principal: #000000;
+    --Color-enlaces: #2e1437;
+    --Color-secundario: #ffffff;
+    --Color-Encabezado: #e6e8e3;
+    --Color-producto: #99968e;
+    --Color-Botones: #7e6c8f;
+    --Color-oferta: #1aaf0d;
+}
+
+body,
+div,
+ul,
+li,
+a,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    background-color: var(--Color-Encabezado);
+}
+
+.header__nav-ul {
+    list-style-type: none;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding-top: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 700;
+    overflow: hidden;
+
+}
+
+.search {
+    position: relative;
+    width: 30vw;
+    height: 30px;
+    border-radius: 9px;
+    border: none;
+    margin-bottom: 10px;
+
+}
+
+.sidebar__item a {
+    color: inherit;
+    text-decoration: none;
+    font-size: .7rem;
+    padding-right: 6px;
+}
+
+.sidebar__item span {
+    padding: 12px;
+    font-size: 2rem;
+}
+
+.sidebar__form {
+    display: flex;
+    justify-content: end;
+
+
+}
+
+.sidebar__item:hover {
+    background-color: var(--Color-secundario);
+    color: #252c31;
+
+}
+
+@media (min-width: 766px) {
+    .header {
+        width: 100%;
+        margin: 0;
+        height: 10vh;
+        position: relative;
+        top: 0;
+    }
+
+    .header__nav-ul {
+        display: flex;
+        flex-direction: row;
+        height: 10vh;
+    }
+
+    .header__nav-li {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        height: 7vh;
+
+    }
+
+    .nav-ul--checkbox {
+        display: none;
+
+    }
+
+    .search {
+        width: 50vw;
+        margin: auto;
+        height: 6vh;
+    }
+
+}
+
+.sidebar {
+    background-color: var(--Color-Encabezado);
+    flex-direction: row;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    position: absolute;
+    top: 9%;
+    padding: 0;
+
+
+}
+
+.sidebar__nav ul,
+.sidebar__profile ul {
+    flex-direction: row;
+
+}
+
+.sidebar__picture {
+    display: none;
+
+
+}
+
+.sidebar__picture2 {
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+
+}
+
+.profile {
+    display: none;
+}
+
+.sidebar__item--perfil,
+.sidebar__item--salir {
+    display: none;
+}
+
+.sidebar__nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar__nav li {
+    margin: auto;
+
+    padding-bottom: 3px;
+
+}
+
+.sidebar__item--searh {
+    display: none;
+
+}
+
+.sidebar__item a {
+    font-size: 0.7rem;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.sidebar__item:hover {
+    background-color: transparent;
+    color: #252c31;
+
+}
+
+
+@media (max-width: 500px) {
+    .search {
+        width: 100%;
+    }
+}
+
+.ofertas {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 1%;
+
+}
+
+.edit-img {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+
+}
+
+@media (min-width: 200px) {
+    .ofertas {
+        top: 1000vh;
+    }
+
+    .carousel-item {
+        height: 43vh;
+
+    }
+
+    .edit-img {
+        height: 50vh;
+
+    }
+
+}
+
+.nav-item {
+
+    margin-right: 50px;
+    /* Espacio entre elementos del menú */
+}
+
+.navbar-brand {
+    margin-right: 40px;
+    /* Espacio entre el logo y el menú */
+}
+
+.descuento {
+    text-decoration: line-through;
+    font-size: 17px;
+}
+
+.productos-ofertas__cards{
+    margin-top: 10;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: initial;
+    background-color: aliceblue;
+    border-radius: 50px;
+
+}
+
+.descuento-color {
+    font-size: 0.7rem;
+    color: var(--Color-oferta)
+}
+
+.card-text {
+    font-size: 1.4rem;
+}
+
+.card-img-top {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 70%;
+}
+
+.card {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 10%;
+
+}
+
+h5 {
+    font-size: 17px;
+}
+
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    width: 35vh;
+}
+
+.title-producto {
+    width: 100%;
+    text-align: center;
+}
+
+.productos-ofertascards {
+    margin-top: 10;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: initial;
+    background-color: aliceblue;
+    border-radius: 50px;
+
+}
+
+
+
+.container {
+    margin-top: 1;
+}
+
+.container--ofertas {
+    margin-top: 0.5%;
+}
+
+@media (max-width: 500px) {
+    .card-img-top {
+        width: 150%;
+        height: 40%;
+        margin: 0;
+    }
+
+}
+
+.icono--forter {
+    display: flex;
+    width: 1%;
+    margin: -0px;
+
+}
+
+.footer_contacto {
+    width: 100%;
+    display: flex;
+}
+.footer {
+margin-top: 1%;
+background-color: #f1efe986;
+
+}
+
+.parrafo-footer1 {
+    margin: -4s;
+}
+
+.parrafo-footer2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+
+.negrilla {
+    font-weight: 700;
+
+}
+
+.encuentranos {
+    margin: 0px;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: var(--Color-enlaces);
+}
+
+.footer3 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*parte de abajo*/
+.footer {
+    margin-top: 2%;
+    background-color: #ffffff63
+}
+
+.Copyright {
+    margin-top: 0%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.cuadro {
+    border: 2px solid white;
+    /* Borde blanco */
+    padding: 20px;
+    /* Espaciado interno */
+    margin: 20px;
+    /* Espaciado externo */
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Fondo semi-transparente */
+    border-radius: 10px;
+    /* Bordes redondeados */
+}
+
+.contenedor--ofertas {
+    background-color: #f9f9f9 !important;
+    padding: 20px !important;
+    border-radius: 10px !important;
+}
+
+
+/* Estilos para pantallas grandes (desktops) */
+@media (min-width: 1024px) {
+    .container {
+      width: 80%;
+    }
+  }
+  
+  /* Estilos para pantallas medianas (tablets) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+      width: 90%;
+    }
+  }
+  
+  /* Estilos para pantallas pequeñas (móviles) */
+  @media (max-width: 767px) {
+    .container {
+      width: 100%;
+    }
+  }
+
+  
+  /* Asegúrate de que las tarjetas tengan un borde visible */
+.card {
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 10px; /* Esquinas redondeadas */
+    overflow: hidden; /* Asegura que las imágenes no se desborden */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave al pasar el ratón */
+    background-color: #fff; /* Fondo blanco para que el borde sea visible */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Cuando se pasa el ratón sobre la tarjeta, resalta un poco más */
+.card:hover {
+    transform: translateY(-5px); /* Eleva la tarjeta */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más grande */
+}
+
+/* Estilo de las imágenes dentro de la tarjeta */
+.card-img-top {
+    object-fit: cover; /* Ajuste de la imagen */
+    width: 100%; /* La imagen ocupa todo el ancho */
+    height: 250px; /* Fijamos una altura para las imágenes */
+}
+
+/* Descuento tachado */
+.descuento {
+    text-decoration: line-through;
+    color: #999; /* Gris claro */
+}
+
+/* Estilo para el texto del precio */
+.card-text {
+    font-size: 1.4rem;
+}
+
+/* Estilo para los títulos de las tarjetas */
+.card-body .card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Estilo para el color de descuento */
+.descuento-color {
+    color: var(--Color-oferta);
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+/* Ajuste para el contenedor de las tarjetas */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espacio entre las tarjetas */
+}
+
+/* Asegurémonos de que cada columna ocupe un buen espacio en pantallas grandes */
+.col {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px; /* Espacio entre filas de productos */
+}
+
+/* Estilo de la sección de productos */
+.productos-ofertas__cards {
+    margin-top: 20px;
+}
+
+/* Aseguramos que las tarjetas se ajusten bien en dispositivos móviles */
+@media (max-width: 767px) {
+    .card {
+        width: 100%; /* Las tarjetas ocupan todo el ancho en dispositivos pequeños */
+    }
+}
+
+.productos-ofertas__cards {
+    margin-top: 10;
+    display: flex
+;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: initial;
+    background-color: aliceblue;
+    border-radius: 50px;
+
+}
+
+.container--ofertas {
+    margin-top: 0.5%;
+}
+.container {
+    margin-top: 1;
+}
+.container {
+    display: flex
+;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 1%;
+
+}
+
+.container {
+    width: 80%; /* Establece el ancho al 80% del tamaño de la ventana */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+@media (max-width: 767px) {
+    /* Para pantallas más pequeñas, puedes ajustar aún más si lo necesitas */
+    .container {
+        width: 80%; /* Aún el 80% en pantallas pequeñas */
+    }
+}
+
+@media (min-width: 1024px) {
+    /* Para pantallas grandes (escritorio), sigue siendo el 80% */
+    .container {
+        width: 80%; 
+    }
+}
+
+
