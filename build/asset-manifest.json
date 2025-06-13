@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7b3ea362.css",
+    "main.js": "/static/js/main.1a2168a3.js",
+    "static/js/453.880be4f6.chunk.js": "/static/js/453.880be4f6.chunk.js",
+    "static/media/FONDO6.png": "/static/media/FONDO6.616a9261ab44d88a14ef.png",
+    "static/media/FONDO7.png": "/static/media/FONDO7.7a3d0073b2b5bd70b994.png",
+    "static/media/carousel3.png": "/static/media/carousel3.88adbce5acbba45717ea.png",
+    "static/media/carousel1.png": "/static/media/carousel1.00031cf6e626d13bd56c.png",
+    "static/media/carousel.png": "/static/media/carousel.4a15f31d64921608cce5.png",
+    "static/media/carousel2.png": "/static/media/carousel2.0a3844acdec9f19c1371.png",
+    "static/media/logog.png": "/static/media/logog.2b8a2e150fe7b77ebd39.png",
+    "index.html": "/index.html",
+    "main.7b3ea362.css.map": "/static/css/main.7b3ea362.css.map",
+    "main.1a2168a3.js.map": "/static/js/main.1a2168a3.js.map",
+    "453.880be4f6.chunk.js.map": "/static/js/453.880be4f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b3ea362.css",
+    "static/js/main.1a2168a3.js"
+  ]
+}
