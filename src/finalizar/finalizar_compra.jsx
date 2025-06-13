@@ -12,7 +12,6 @@ export default function CheckoutPage() {
   })
   const [errors, setErrors] = useState([])
   const [cart, setCart] = useState([])
-  const [user, setUser] = useState(null)
 
   // Simulate fetching user data and cart from API/localStorage
   useEffect(() => {
